@@ -171,49 +171,42 @@ export default function FurnitureAssemblyPage() {
           {
             image: "testimonials/5starreviwfromYelp.png",
             alt: "5-star Yelp review for ARMMAX handyman services",
-
+            platform: "yelp",
           },
           {
-            image: "testimonials/5starreviwfromYelp2.png", 
+            image: "testimonials/5starreviwfromYelp2.png",
             alt: "TaskRabbit review for furniture assembly",
             platform: "taskrabbit",
-
           },
           {
             image: "testimonials/5starreviwfromYelp3.png",
             alt: "Google review for TV mounting service",
-
-
+            platform: "google",
           },
           {
             image: "testimonials/5starreviwfromYelp4.png",
             alt: "TaskRabbit review for gazebo installation",
-
-
+            platform: "taskrabbit",
           },
           {
             image: "testimonials/5starreviwfromYelp5.png",
             alt: "Yelp review highlighting communication",
-
-
+            platform: "yelp",
           },
           {
             image: "testimonials/5starreviwfromYelp7.png",
             alt: "Yelp review highlighting communication",
-
-
+            platform: "yelp",
           },
           {
             image: "testimonials/5starreviwfromYelp6.png",
             alt: "Yelp review highlighting communication",
-
-
+            platform: "yelp",
           },
           {
             image: "testimonials/5starreviwfromYelp8.png",
             alt: "Yelp review highlighting communication",
-
-
+            platform: "yelp",
           },
         ]}
       />
