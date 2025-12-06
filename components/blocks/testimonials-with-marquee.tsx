@@ -10,7 +10,7 @@ interface TestimonialsSectionProps {
   testimonials: Array<{
     image: string;
     alt: string;
-    platform: "yelp" | "taskrabbit" | "google";
+    platform?: "yelp" | "taskrabbit" | "google";
     rating?: number;
   }>;
   className?: string;
