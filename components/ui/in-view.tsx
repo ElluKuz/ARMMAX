@@ -42,7 +42,7 @@ export function InView({
     };
 
   const finalTransition: Transition =
-    transition ?? { duration: 0.35, ease: "easeOut" };
+    transition ?? { duration: 0.35};
 
   return (
     <motion.div

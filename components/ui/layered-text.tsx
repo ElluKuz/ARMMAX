@@ -41,7 +41,7 @@ export function LayeredText({
   className = "",
 }: LayeredTextProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const timelineRef = useRef<gsap.core.Timeline>();
+  const timelineRef = useRef<gsap.core.Timeline | null>(null);
 
   // смещение по X – «ступенька»
   const calculateTranslateX = (index: number) => {
