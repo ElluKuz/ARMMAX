@@ -1,43 +1,35 @@
-# === Node / пакеты ===
+# Node / пакеты
 node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# === Next.js билд и кеш ===
+# Next.js build
 .next
 out
 dist
 
-# === Vercel локальные файлы ===
+# Vercel
 .vercel
 
-# === Логи ===
+# Логи
 logs
 *.log
 logs/*
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# === SQLite / Базы данных ===
+# SQLite / базы
 data/*.db
+data/*.db-*
 *.sqlite
 *.sqlite3
 
-# === Временные файлы / кеш ===
-.DS_Store
-*.swp
-*.swo
-*.tmp
-
-# === Файлы загрузок (если сохраняешь заявки на диск) ===
+# Загрузки файлов (если есть)
 uploads/
 tmp/
 temp/
 
-# === Переменные окружения (секреты) ===
+# Env с секретами
 .env
 .env.local
 .env.*.local
@@ -45,5 +37,8 @@ temp/
 .env.production.local
 .env.test.local
 
-# Можно оставить пример env-файла, если он без секретов
-!.env.example
+# Системный мусор
+.DS_Store
+*.swp
+*.swo
+*.tmp
