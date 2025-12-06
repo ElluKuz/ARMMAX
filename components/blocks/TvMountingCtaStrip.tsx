@@ -22,7 +22,7 @@ export function TvMountingCtaStrip({ phone }: { phone: string }) {
             filter: "blur(0px)",
           },
         }}
-        transition={{ duration: 0.35, ease: "easeOut" }}
+        transition={{ duration: 0.35}}
         viewOptions={{ margin: "0px 0px -200px 0px" }}
       >
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-8 md:flex-row md:items-center md:justify-between md:py-10">
