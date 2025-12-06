@@ -1,0 +1,49 @@
+/* app/globals.css */
+
+/* Подключаем Tailwind 4 и указываем конфиг */
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/* Свои базовые стили */
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+
+  a {
+    @apply text-brand hover:text-brand-accent;
+  }
+}
+@layer base {
+  p {
+    @apply text-[15px] md:text-[20px];
+    @apply text-[16px] md:text-[20px];
+  }
+}
+@layer utilities {
+  /* Тонкий тёмный скроллбар для модалок / тёмных блоков */
+  .scrollbar-thin-dark {
+    /* Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: #4b5563 #020617; /* thumb, track */
+  }
+
+  /* WebKit (Chrome, Edge, Safari) */
+  .scrollbar-thin-dark::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .scrollbar-thin-dark::-webkit-scrollbar-track {
+    background: #020617; /* почти чёрный фон, как у модалки */
+  }
+
+  .scrollbar-thin-dark::-webkit-scrollbar-thumb {
+    background: #4b5563;       /* серая ручка */
+    border-radius: 9999px;     /* скруглённая */
+    border: 2px solid #020617; /* чтобы визуально была «внутри» трека */
+  }
+
+  .scrollbar-thin-dark::-webkit-scrollbar-thumb:hover {
+    background: #6b7280; /* чуть светлее при наведении */
+  }
+}
