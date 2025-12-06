@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 interface TestimonialScreenshotCardProps {
   image: string;
   alt: string;
-  platform: "yelp" | "taskrabbit" | "google";
+  platform?: "yelp" | "taskrabbit" | "google";
   rating?: number;
   className?: string;
 }
