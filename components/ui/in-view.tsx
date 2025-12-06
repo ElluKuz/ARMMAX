@@ -32,8 +32,6 @@ export function InView({
 
   const isInView = useInView(ref, {
     once: true,
-    // framer-motion useInView поддерживает margin, как IntersectionObserver
-    margin: viewOptions?.margin,
   });
 
   const finalVariants: Variants =
