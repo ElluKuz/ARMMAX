@@ -47,3 +47,12 @@
     background: #6b7280; /* чуть светлее при наведении */
   }
 }
+@layer utilities {
+  .text-xs {
+    font-size: 1.1rem; /* ~12.8px вместо 12 */
+  }
+
+  .text-sm {
+    font-size: 0.95rem; /* ~15.2px вместо 14 */
+  }
+}

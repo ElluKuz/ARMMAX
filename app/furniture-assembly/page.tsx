@@ -24,7 +24,7 @@ export default function FurnitureAssemblyPage() {
       {/* Фон-картинка */}
       <div className="absolute inset-0 -z-10">
         <img
-          src="Furnitureassemblyhero.png"
+          src="/Furnitureassemblyhero.png"
           alt="Living room with assembled furniture"
           className="h-full w-full object-cover object-bottom brightness-110"
         />
@@ -69,7 +69,7 @@ export default function FurnitureAssemblyPage() {
       {/* Синяя полоска с статистикой */}
       <div className="w-full bg-brand-dark/95">
         <div className="mx-auto max-w-6xl px-4 md:px-6 py-4 md:py-5">
-          <div className="grid gap-4 text-xs md:grid-cols-4 md:text-sm">
+        <div className="grid grid-cols-2 gap-4 text-[11px] sm:text-xs md:grid-cols-4 md:text-sm">
             <StatItem number="13+" label="years of experience" />
             <StatItem number="500+" label="assembly projects completed" />
             <StatItem number="4.9 / 5" label="average rating on Yelp" />
@@ -118,7 +118,12 @@ export default function FurnitureAssemblyPage() {
             </p>
           </div>
 
-          <div className="grid gap-4 md:grid-cols-3">
+          <div 
+            className="
+              flex gap-4 overflow-x-auto pb-4 -mx-4 px-4
+              md:grid md:grid-cols-3 md:overflow-visible md:pb-0 md:mx-0 md:px-0
+            "
+          >
             <WhyCard
               title="Safe, sturdy assembly"
               points={[
@@ -171,42 +176,49 @@ export default function FurnitureAssemblyPage() {
           {
             image: "testimonials/5starreviwfromYelp.png",
             alt: "5-star Yelp review for ARMMAX handyman services",
-            platform: "yelp",
+
           },
           {
-            image: "testimonials/5starreviwfromYelp2.png",
+            image: "/testimonials/5starreviwfromYelp2.png", 
             alt: "TaskRabbit review for furniture assembly",
-            platform: "taskrabbit",
+
+
           },
           {
-            image: "testimonials/5starreviwfromYelp3.png",
+            image: "/testimonials/5starreviwfromYelp3.png",
             alt: "Google review for TV mounting service",
-            platform: "google",
+
+
           },
           {
-            image: "testimonials/5starreviwfromYelp4.png",
+            image: "/testimonials/5starreviwfromYelp4.png",
             alt: "TaskRabbit review for gazebo installation",
-            platform: "taskrabbit",
+
+
           },
           {
-            image: "testimonials/5starreviwfromYelp5.png",
+            image: "/testimonials/5starreviwfromYelp5.png",
             alt: "Yelp review highlighting communication",
-            platform: "yelp",
+
+
           },
           {
-            image: "testimonials/5starreviwfromYelp7.png",
+            image: "/testimonials/5starreviwfromYelp7.png",
             alt: "Yelp review highlighting communication",
-            platform: "yelp",
+
+
           },
           {
-            image: "testimonials/5starreviwfromYelp6.png",
+            image: "/testimonials/5starreviwfromYelp6.png",
             alt: "Yelp review highlighting communication",
-            platform: "yelp",
+
+
           },
           {
-            image: "testimonials/5starreviwfromYelp8.png",
+            image: "/testimonials/5starreviwfromYelp8.png",
             alt: "Yelp review highlighting communication",
-            platform: "yelp",
+
+
           },
         ]}
       />
@@ -293,7 +305,12 @@ function StatItem({ number, label }: { number: string; label: string }) {
 
 function WhyCard({ title, points }: { title: string; points: string[] }) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white px-6 py-7 shadow-sm">
+    <div
+      className="
+        w-[80%] flex-shrink-0 rounded-2xl border border-slate-200 bg-white px-6 py-7 shadow-sm
+        md:w-auto md:flex-shrink
+      "
+    >
       <h3 className="text-base md:text-lg font-semibold text-slate-900 text-center">
         {title}
       </h3>
