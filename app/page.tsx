@@ -271,8 +271,6 @@ function StatItem({ number, label }: { number: string; label: string }) {
   );
 }
 
-
-
 function ServiceCard({
   title,
   description,
@@ -287,7 +285,7 @@ function ServiceCard({
   return (
     <a
       href={href}
-      className="flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm transition hover:-translate-y-1 hover:border-sky-400"
+      className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm transition hover:-translate-y-1 hover:border-sky-400 text-inherit"
     >
       <div className="h-48 md:h-56 w-full overflow-hidden">
         <img
@@ -299,8 +297,9 @@ function ServiceCard({
       <div className="flex flex-1 flex-col p-4">
         <h3 className="text-sm font-semibold text-slate-900">{title}</h3>
         <p className="mt-2 text-sm text-slate-600">{description}</p>
-        <span className="mt-4 text-xs font-semibold text-sky-500">
-          Learn more →
+
+        <span className="mt-4 inline-flex text-xs font-semibold text-sky-500">
+          <span className="service-link">Learn more →</span>
         </span>
       </div>
     </a>

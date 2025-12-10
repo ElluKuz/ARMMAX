@@ -64,3 +64,28 @@
 .shadow-md {
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.14);
 }
+
+/* Анимированное подчёркивание для Learn more в карточках сервисов */
+@layer components {
+  .service-link {
+    position: relative;
+    display: inline-block;
+  }
+
+  .service-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px; /* сделаем толще, чтобы точно увидеть */
+    background-color: rgb(14 165 233); /* sky-500 */
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-out;
+  }
+
+  .group:hover .service-link::after {
+    transform: scaleX(1);
+  }
+}
