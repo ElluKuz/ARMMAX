@@ -32,9 +32,9 @@ const PAINTING_ITEMS: PaintingGalleryItem[] = [
       "Professional interior repainting for living rooms, bedrooms and whole homes, with careful prep, clean lines and help choosing the right colors.",
     location: (
       <>
-        Irvine, Lake Forest, Santa Ana, Tustin & nearby OC
+        Irvine, Lake Forest, Tustin & nearby OC
         <br />
-        1–3 days · living rooms, bedrooms & common areas
+        1–3 days 
       </>
     ),
     image:
@@ -55,9 +55,9 @@ const PAINTING_ITEMS: PaintingGalleryItem[] = [
       "Crisp accent walls that change the mood of the room without repainting every surface.",
     location: (
       <>
-        Costa Mesa, Newport Beach, Huntington Beach, Fountain Valley & nearby OC
+        Costa Mesa, Newport Beach & nearby OC
         <br />
-        0.5–1 day · single or multiple accent walls
+        0.5–1 day 
       </>
     ),
     image:
@@ -78,9 +78,9 @@ const PAINTING_ITEMS: PaintingGalleryItem[] = [
       "We remove dated popcorn texture, repair the surface and repaint ceilings or walls so the room feels clean and modern.",
     location: (
       <>
-        Anaheim, Orange, Garden Grove, Fullerton & nearby OC
+        Anaheim, Garden Grove & nearby OC
         <br />
-        1–2 days · popcorn removal + repaint for 1–2 rooms
+        1–2 days 
       </>
     ),
     image:
@@ -99,9 +99,9 @@ const PAINTING_ITEMS: PaintingGalleryItem[] = [
       "Efficient repainting for offices, garages and common areas in one consistent color across big spaces.",
     location: (
       <>
-        Irvine, Santa Ana, Anaheim, Orange & nearby OC
+        Irvine, Santa Ana, Anaheim & nearby OC
         <br />
-        1–3 days · offices, garages & large technical spaces
+        1–3 days
       </>
     ),
     image:

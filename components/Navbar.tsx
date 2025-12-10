@@ -29,9 +29,7 @@ export function Navbar({ phone }: { phone: string }) {
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-40 border-b backdrop-blur-md transition-colors duration-300",
-        scrolled
-          ? "bg-white/90 border-slate-200"
-          : "bg-white/70 border-slate-200/60"
+        "bg-white/90 border-slate-200"
       )}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">

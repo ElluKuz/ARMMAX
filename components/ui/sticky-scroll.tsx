@@ -18,35 +18,35 @@ const StickyScroll = forwardRef<HTMLElement>((props, ref) => {
                 <img
                   src='furnitureassembly/bathroomcabinetsassembly.jpg'
                   alt=''
-                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md '
+                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md shadow-sm '
                 />
               </figure>
               <figure className=' w-full'>
                 <img
                   src='furnitureassembly/cabinetsassembly.jpg'
                   alt=''
-                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md '
+                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md shadow-sm '
                 />
               </figure>
               <figure className=' w-full'>
                 <img
                   src='furnitureassembly/EuropeanKitchenCabinetsAssembly.jpg'
                   alt=''
-                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md '
+                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md shadow-sm '
                 />
               </figure>
               <figure className='w-full'>
                 <img
                   src='InteriorPaintingProjects/intrior paint.jpg'
                   alt=''
-                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md '
+                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md shadow-sm '
                 />
               </figure>
               <figure className='w-full'>
                 <img
                   src='furnitureassembly/outdoorkidsspace.jpg'
                   alt=''
-                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md '
+                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md shadow-sm '
                 />
               </figure>
             </div>
@@ -54,26 +54,26 @@ const StickyScroll = forwardRef<HTMLElement>((props, ref) => {
 
 
 
-            <div className='sticky top-0 h-screen w-full col-span-4 gap-2  grid grid-rows-3'>
-              <figure className='w-full h-full '>
+            <div className="sticky top-0 h-screen w-full col-span-4 grid grid-rows-3 gap-3">
+              <figure className="w-full h-full">
                 <img
-                  src='InteriorPaintingProjects/InteriorPainting8.jpg'
-                  alt=''
-                  className='transition-all duration-300 h-full w-full  align-bottom object-cover rounded-md '
+                  src="InteriorPaintingProjects/InteriorPainting8.jpg"
+                  alt=""
+                  className="transition-all duration-300 h-full w-full align-bottom object-cover rounded-md shadow-md"
                 />
               </figure>
-              <figure className='w-full h-full '>
+              <figure className="w-full h-full">
                 <img
-                  src='InteriorPaintingProjects/InteriorPainting.jpg'
-                  alt=''
-                  className='transition-all duration-300 h-full w-full align-bottom object-cover rounded-md '
+                  src="InteriorPaintingProjects/InteriorPainting.jpg"
+                  alt=""
+                  className="transition-all duration-300 h-full w-full align-bottom object-cover rounded-md shadow-md"
                 />
               </figure>
-              <figure className='w-full h-full '>
+              <figure className="w-full h-full">
                 <img
-                  src='InteriorPaintingProjects/InteriorPainting7.jpg'
-                  alt=''
-                  className='transition-all duration-300 h-full w-full  align-bottom object-cover rounded-md '
+                  src="InteriorPaintingProjects/InteriorPainting7.jpg"
+                  alt=""
+                  className="transition-all duration-300 h-full w-full align-bottom object-cover rounded-md shadow-md"
                 />
               </figure>
             </div>
@@ -85,35 +85,35 @@ const StickyScroll = forwardRef<HTMLElement>((props, ref) => {
                 <img
                   src='furnitureassembly/SofaAssembly.jpg'
                   alt=''
-                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md '
+                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md shadow-sm '
                 />
               </figure>
               <figure className='w-full'>
                 <img
                   src='furnitureassembly/KidsRoomAsembly.jpg'
                   alt=''
-                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md '
+                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md shadow-sm '
                 />
               </figure>
               <figure className='w-full'>
                 <img
                   src='furnitureassembly/SofaAssembly.jpg'
                   alt=''
-                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md '
+                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md shadow-sm '
                 />
               </figure>
               <figure className='w-full'>
                 <img
                   src='furnitureassembly/OutdoorKidsPlaygrondAssembly.jpg'
                   alt=''
-                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md '
+                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md shadow-sm '
                 />
               </figure>
               <figure className='w-full'>
                 <img
                   src='furnitureassembly/EuropeanKitchenCabinetsAssembly.jpg'
                   alt=''
-                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md '
+                  className='transition-all duration-300 w-full h-96  align-bottom object-cover rounded-md shadow-sm '
                 />
               </figure>
             </div>

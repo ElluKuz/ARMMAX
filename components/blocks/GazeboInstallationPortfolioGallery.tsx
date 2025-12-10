@@ -32,9 +32,9 @@ const GAZEBO_ITEMS: GazeboGalleryItem[] = [
       "Gazebo installations we complete every week: solid aluminum frames, louvered and open-roof pergolas, and spa-side structures built on existing patios.",
     details: (
       <>
-        Irvine, Lake Forest, Tustin, Orange & nearby OC
+        Irvine, Lake Forest, Orange & nearby OC
         <br />
-        4–8 hours · same-day gazebo assembly on pavers
+        4–8 hours same-day 
       </>
     ),
     image: "/gazebo-installation/gazebo_assembly-10.jpg",
@@ -55,9 +55,9 @@ const GAZEBO_ITEMS: GazeboGalleryItem[] = [
       "Most backyards are not perfectly flat, so our team focuses on precise leveling, structural anchoring and clean integration with what’s already there.",
     details: (
       <>
-        Huntington Beach, Costa Mesa, Newport Beach & nearby OC
+        Huntington Beach, Costa Mesa, Newport Beach
         <br />
-        1 full day · pergola installation on deck or patio
+        1 full day
       </>
     ),
     image: "/gazebo-installation/gazebo_assembly-14.jpg",
@@ -78,9 +78,9 @@ const GAZEBO_ITEMS: GazeboGalleryItem[] = [
       "A clean, solid structure that are safe in wind and weather, lines up well with the house, and instantly makes the backyard more usable — whether for family dinners, quiet mornings with coffee, or evenings in the hot tub.",
     details: (
       <>
-        Mission Viejo, Rancho Santa Margarita, Ladera Ranch & nearby OC
+        Mission Viejo, Santa Margarita & nearby OC
         <br />
-        1–2 visits · base prep + gazebo assembly
+        1–2 visits
       </>
     ),
     image: "/gazebo-installation/gazebo_assembly-3.jpg",
@@ -101,9 +101,9 @@ const GAZEBO_ITEMS: GazeboGalleryItem[] = [
       "Every project in this gallery started with the same goal: make the backyard more usable.",
     details: (
       <>
-        Tustin, Santa Ana, Anaheim, Orange & nearby OC
+        Tustin, Santa Ana, Orange & nearby OC
         <br />
-        1 day · poolside gazebo or pergola installation
+        1 day
       </>
     ),
     image: "/gazebo-installation/gazebo_assembly-12.jpg",

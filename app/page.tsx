@@ -145,7 +145,56 @@ export default function HomePage() {
           </p>
         </div>
 
-          <div className="flex gap-4 overflow-x-auto pb-4 -mx-4 px-4 md:grid md:grid-cols-3 md:overflow-visible md:pb-0 md:mx-0 md:px-0">
+          {/* мобилка: авто-скролл карусель */}
+          <div className="overflow-hidden pb-4 -mx-4 px-4 md:hidden">
+            <div className="flex gap-4 why-slider">
+              <WhyCard
+                title="Neat and responsible"
+                points={[
+                  "Meticulous prep and covering",
+                  "Detailed cleaning at the end",
+                ]}
+              />
+              <WhyCard
+                title="Clear Communication"
+                points={[
+                  "Proactive communication style with in-person walkthroughs",
+                  "Text reminders",
+                ]}
+              />
+              <WhyCard
+                title="Transparent Pricing"
+                points={[
+                  "Detailed itemized quotes sent by email, text and PDF",
+                  "We do our best to set clear expectations",
+                ]}
+              />
+              <WhyCard
+                title="Quality Finishes"
+                points={[
+                  "Dedicated crews to give superior finishes",
+                  "27-point checklist system so no detail is missed",
+                ]}
+              />
+              <WhyCard
+                title="Project Completion"
+                points={[
+                  "We meet deadlines without compromising on quality",
+                  "Project completion with a human touch",
+                ]}
+              />
+              <WhyCard
+                title="Trusted local team"
+                points={[
+                  "Family-owned business serving Orange County since 2012",
+                  "Photo examples & references available on request",
+                ]}
+              />
+            </div>
+          </div>
+
+          {/* десктоп: старая сетка */}
+          <div className="hidden md:grid md:grid-cols-3 md:gap-4">
             <WhyCard
               title="Neat and responsible"
               points={[
@@ -309,7 +358,12 @@ function ServiceCard({
 
 function WhyCard({ title, points }: { title: string; points: string[] }) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white px-6 py-7 shadow-sm">
+    <div
+      className="
+        w-[80vw] flex-shrink-0 rounded-2xl border border-slate-200 bg-white px-6 py-7 shadow-sm
+        md:w-auto md:flex-shrink
+      "
+    >
       <h3 className="text-base md:text-lg font-semibold text-slate-900 text-center">
         {title}
       </h3>
@@ -324,6 +378,7 @@ function WhyCard({ title, points }: { title: string; points: string[] }) {
     </div>
   );
 }
+
 
 
 

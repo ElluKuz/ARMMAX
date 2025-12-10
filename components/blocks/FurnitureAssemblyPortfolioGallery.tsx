@@ -32,7 +32,7 @@ const ASSEMBLY_ITEMS: AssemblyGalleryItem[] = [
       "TV cabinets, wall units, beds and storage pieces are built securely and leveled so they function smoothly and look cohesive in your space.",
     details: (
       <>
-        Irvine, Lake Forest, Mission Viejo, Anaheim & nearby OC
+        Irvine, Lake Forest, Mission Viejo & nearby OC
         <br />
         1–5 hours · IKEA & Amazon mix
       </>
@@ -57,9 +57,9 @@ const ASSEMBLY_ITEMS: AssemblyGalleryItem[] = [
       "We assemble and mount kitchen cabinets with a focus on durability and accuracy. Seamless, Strong and Professionally",
     details: (
       <>
-        Costa Mesa, Newport Beach, Santa Ana & nearby OC
+        Costa Mesa, Santa Ana & nearby OC
         <br />
-        6–10 hours · typical kitchen or main cabinet wall
+        6–10 hours · luxury & pre-fabricated
       </>
     ),
     image:
@@ -105,7 +105,7 @@ const ASSEMBLY_ITEMS: AssemblyGalleryItem[] = [
       <>
         Newport Beach, Huntington Beach & nearby OC
         <br />
-        3–6 hours · vanity + tall cabinet storage
+        3–6 hours
       </>
     ),
     image:
@@ -123,14 +123,14 @@ const ASSEMBLY_ITEMS: AssemblyGalleryItem[] = [
   },
   {
     id: "entry-storage",
-    title: "Outdoor Furniture, Playsets & Shed Assembly",
+    title: "Outdoor Furniture, Playsets & Sheds Assembly",
     summary:
       "From children’s play structures to patio furniture and storage sheds, we assemble outdoor items with durability in mind.",
     details: (
       <>
-        Lake Forest, Irvine, Aliso Viejo, Laguna Niguel & nearby OC
+        Lake Forest, Irvine, Laguna Niguel & nearby OC
         <br />
-        4–8 hours · sheds, swing sets & patio sets
+        4–8 hours 
       </>
     ),
     image:
@@ -153,9 +153,9 @@ const ASSEMBLY_ITEMS: AssemblyGalleryItem[] = [
       "Our office desk assembly service handles both single tables and large batches for new workspaces.",
     details:(
       <>
-        Irvine, Santa Ana, Anaheim, Orange & nearby OC
+        Santa Ana, Anaheim, Orange & nearby OC
         <br />
-        1–6 hours · home offices & small teams
+        1–6 hours 
       </>
     ),
     image:

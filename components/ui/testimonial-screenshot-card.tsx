@@ -10,7 +10,6 @@ interface TestimonialScreenshotCardProps {
   rating?: number;
   className?: string;
 }
-
 export function TestimonialScreenshotCard({
   image,
   alt,
@@ -22,7 +21,8 @@ export function TestimonialScreenshotCard({
     <div
       className={cn(
         "flex flex-col",
-        "max-w-[640px] sm:max-w-[680px]", // Еще больше увеличили
+        // На мобиле почти весь экран, на планшете шире, на десктопе как раньше
+        "w-[80vw] sm:w-[570px] md:w-[620px] lg:w-[640px]",
         "transition-transform duration-300 hover:scale-[1.02]",
         className
       )}
@@ -31,8 +31,7 @@ export function TestimonialScreenshotCard({
         <img
           src={image}
           alt={alt}
-          className="w-full h-auto object-cover rounded-lg"
-          loading="lazy"
+          className="w-full h-auto object-cover rounded-lg shadow-md"
         />
       </div>
     </div>

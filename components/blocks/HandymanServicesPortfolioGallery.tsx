@@ -77,7 +77,7 @@ const TV_ART_ITEMS: TvArtGalleryItem[] = [
       "Heavy mirrors, canvases and decorative pieces need more than one nail in the wall. Our wall art installation service focuses on safety and accuracy, especially for larger or heavier items.",
     details: (
       <>
-        Tustin, Irvine, Anaheim Hills, Orange & nearby OC
+        Tustin, Irvine, Anaheim, Orange & nearby OC
         <br />
         2–4 hours · heavy art & mirrors over furniture
       </>
