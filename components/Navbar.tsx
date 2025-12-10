@@ -44,8 +44,11 @@ export function Navbar({ phone }: { phone: string }) {
             onClick={() => setMenuOpen((v) => !v)}
             aria-label="Toggle navigation"
           >
-            <span className="block h-[2px] w-4 bg-slate-700" />
-            <span className="block h-[2px] w-4 bg-slate-700 mt-[4px]" />
+            <span className="relative flex h-4 w-5 flex-col justify-between">
+              <span className="h-[2px] w-full rounded-full bg-slate-700" />
+              <span className="h-[2px] w-full rounded-full bg-slate-700" />
+              <span className="h-[2px] w-full rounded-full bg-slate-700" />
+            </span>
           </button>
 
           {/* логотип — чуть правее за счёт бургера */}
@@ -88,15 +91,15 @@ export function Navbar({ phone }: { phone: string }) {
 
       {/* Мобильное меню под шапкой */}
       {menuOpen && (
-        <div className="md:hidden border-t border-slate-200 bg-white">
-          <nav className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-3 text-sm font-semibold text-slate-800">
+        <div className="md:hidden border-t border-slate-200/80 bg-white/90 backdrop-blur">
+          <nav className="mx-auto flex max-w-6xl flex-col items-center gap-2 px-4 py-3 text-sm font-semibold text-slate-800">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 onClick={() => setMenuOpen(false)}
                 className={cn(
-                  "py-1",
+                  "py-1 text-center",
                   pathname === item.href
                     ? "text-brand-accent"
                     : "text-slate-700"
