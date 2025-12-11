@@ -42,18 +42,14 @@ export function TestimonialsSection({
         </div>
 
         <div className="mt-4 w-full">
-          {/* Мобилка: один крупный скрин на экран, свайп и снап */}
-          <div className="flex gap-4 overflow-x-auto pb-2 sm:hidden snap-x snap-mandatory">
+          {/* Мобилка: простая горизонтальная прокрутка */}
+          <div className="flex gap-4 overflow-x-auto pb-2 sm:hidden">
             {testimonials.map((t, i) => (
-              <TestimonialScreenshotCard
-                key={`mobile-${i}`}
-                className="snap-center"
-                {...t}
-              />
+              <TestimonialScreenshotCard key={`mobile-${i}`} {...t} />
             ))}
           </div>
 
-          {/* Планшет/десктоп: бесконечная лента как была */}
+          {/* Десктоп / планшет: бесконечная лента */}
           <div className="relative hidden w-full flex-col items-center justify-center overflow-hidden sm:flex">
             <div className="group flex overflow-hidden p-2 [--gap:1.5rem] [gap:var(--gap)] flex-row [--duration:180s]">
               <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row group-hover:[animation-play-state:paused]">
