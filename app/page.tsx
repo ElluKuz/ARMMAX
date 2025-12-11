@@ -145,9 +145,9 @@ export default function HomePage() {
           </p>
         </div>
 
-          {/* мобилка: авто-скролл карусель */}
+          {/* мобилка: свайп по одному блоку */}
           <div className="overflow-hidden pb-4 -mx-4 px-4 md:hidden">
-            <div className="flex gap-4 why-slider">
+            <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth">
               <WhyCard
                 title="Neat and responsible"
                 points={[
@@ -361,6 +361,7 @@ function WhyCard({ title, points }: { title: string; points: string[] }) {
     <div
       className="
         w-[80vw] flex-shrink-0 rounded-2xl border border-slate-200 bg-white px-6 py-7 shadow-sm
+        snap-center
         md:w-auto md:flex-shrink
       "
     >

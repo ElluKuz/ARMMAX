@@ -90,25 +90,3 @@
   }
 }
 
-/* Авто-движение Why-карусели на мобилке */
-@layer utilities {
-  .why-slider {
-    animation: why-slider 20s ease-in-out infinite alternate;
-  }
-
-  @keyframes why-slider {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-
-  @media (min-width: 768px) {
-    .why-slider {
-      animation: none;
-      transform: none;
-    }
-  }
-}
