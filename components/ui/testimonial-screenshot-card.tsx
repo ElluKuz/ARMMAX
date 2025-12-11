@@ -22,7 +22,7 @@ export function TestimonialScreenshotCard({
       className={cn(
         "flex flex-col",
         // На мобиле почти весь экран, на планшете шире, на десктопе как раньше
-        "w-[80vw] sm:w-[570px] md:w-[620px] lg:w-[640px]",
+        "w-[90vw] sm:w-[570px] md:w-[640px] lg:w-[640px]",
         "transition-transform duration-300 hover:scale-[1.02]",
         className
       )}
