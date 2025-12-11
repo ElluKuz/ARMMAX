@@ -1,4 +1,3 @@
-// components/ui/testimonial-screenshot-card.tsx
 "use client";
 
 import { cn } from "@/lib/utils";
@@ -10,6 +9,7 @@ interface TestimonialScreenshotCardProps {
   rating?: number;
   className?: string;
 }
+
 export function TestimonialScreenshotCard({
   image,
   alt,
@@ -21,17 +21,17 @@ export function TestimonialScreenshotCard({
     <div
       className={cn(
         "flex flex-col",
-        // На мобиле почти весь экран, на планшете шире, на десктопе как раньше
-        "w-[80vw] sm:w-[570px] md:w-[620px] lg:w-[640px]",
+        // На мобиле почти весь экран, на планшете/десктопе широкие как раньше
+        "w-[80vw] sm:w-[420px] md:w-[520px] lg:w-[640px]",
         "transition-transform duration-300 hover:scale-[1.02]",
         className
       )}
     >
-      <div className="overflow-hidden">
+      <div className="overflow-hidden min-h-[220px]">
         <img
           src={image}
           alt={alt}
-          className="w-full h-auto object-cover rounded-lg shadow-md"
+          className="h-full w-full object-cover rounded-lg shadow-md"
         />
       </div>
     </div>
