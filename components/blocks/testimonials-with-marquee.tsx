@@ -42,31 +42,27 @@ export function TestimonialsSection({
         </div>
 
         <div className="mt-4 w-full">
-          {/* Мобилка: простая горизонтальная прокрутка */}
-          <div className="flex gap-4 overflow-x-auto pb-2 sm:hidden">
-            {testimonials.map((t, i) => (
-              <TestimonialScreenshotCard key={`mobile-${i}`} {...t} />
-            ))}
-          </div>
-
-          {/* Десктоп / планшет: бесконечная лента */}
-          <div className="relative hidden w-full flex-col items-center justify-center overflow-hidden sm:flex">
-            <div className="group flex overflow-hidden p-2 [--gap:1.5rem] [gap:var(--gap)] flex-row [--duration:180s]">
-              <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row group-hover:[animation-play-state:paused]">
-                {[...Array(4)].map((_, setIndex) =>
-                  testimonials.map((testimonial, i) => (
-                    <TestimonialScreenshotCard
-                      key={`${setIndex}-${i}`}
-                      {...testimonial}
-                    />
-                  ))
-                )}
+          <div className="mt-4 w-full">
+            <div className="relative w-full flex flex-col items-center justify-center overflow-hidden">
+              <div className="group flex overflow-hidden p-2 [--gap:1.5rem] [gap:var(--gap)] flex-row [--duration:180s]">
+                <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row group-hover:[animation-play-state:paused]">
+                  {[...Array(4)].map((_, setIndex) =>
+                    testimonials.map((testimonial, i) => (
+                      <TestimonialScreenshotCard
+                        key={`${setIndex}-${i}`}
+                        {...testimonial}
+                      />
+                    ))
+                  )}
+                </div>
               </div>
-            </div>
 
-            <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-slate-950" />
-            <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-slate-950" />
+              <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-slate-950" />
+              <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-slate-950" />
+            </div>
           </div>
+
+
         </div>
       </div>
     </section>
